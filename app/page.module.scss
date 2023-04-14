@@ -1,0 +1,7 @@
+@use "./sass/main.scss" as a;
+
+.main {
+    display: flex;
+    flex-direction: column;
+    gap: a.$gap-mobile-section;
+}
